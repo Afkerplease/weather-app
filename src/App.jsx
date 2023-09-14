@@ -65,13 +65,13 @@ function App() {
                 <p>{info?.weather[0].description} </p>
               </div>
             </div>
-            <div className="imgdiv">
+            {/* <div className="imgdiv">
               <img
                 src={`./public/icons/${info?.weather[0].icon}.png`}
                 style={{ height: "150px", width: "150px" }}
                 alt=""
               />
-            </div>
+            </div> */}
             <div className="bottom">
               <div className="feels">
                 <p>temp max</p>
