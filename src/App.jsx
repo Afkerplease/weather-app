@@ -42,7 +42,7 @@ function App() {
           // value={location}
           onChange={(e) => setLocation(e.target.value)}
           onKeyPress={locationSearch}
-          placeholder="location"
+          placeholder="Chercher en France..."
           type="text"
           name=""
           id=""
@@ -85,7 +85,7 @@ function App() {
               </div>
               <div className="wind">
                 <p>vent</p>
-                <p> mph</p>
+                <p> {info?.wind.speed} mph</p>
               </div>
             </div>
           </div>
